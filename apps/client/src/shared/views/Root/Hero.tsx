@@ -7,16 +7,17 @@ const Hero = () => {
       <div className="backdrop_shaders w-full" />
       <div className="w-[80%] m-auto">
         <h1 className="text-4xl py-5 xl:text-6xl font-[700] xl:leading-[80px] sm:mt-20 font-Inter">
-          Healthy and delicious meals, <br />
-          Delivered straight to your door!
+          Fresh and Stunning Foods
+          <br />
+          Available for Delivery
         </h1>
         <p className={`${styles.label} !text-[18px]`}>
-          Healthy food, drinks and groceries available for delivery or pickup.
-          Great <br /> discounts for first delivery.
+          Order your favorite meals and get them in less than 30 minutes.
+          <br /> We offer the best food delivery service in town.
         </p>
         <br />
         <Button className={`${styles.button} w-[180px] md:mb-12`}>
-          Order Now
+          INN Order Now
         </Button>
       </div>
     </div>
